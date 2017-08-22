@@ -14,7 +14,7 @@
 * limitations under the License.
 */
 
-package com.example.android.classicalmusicquiz;
+package id.sch.smktelkom_mlg.privateassignment.xirpl131.media_play_black;
 
 import android.content.Context;
 import android.content.Intent;
@@ -134,5 +134,4 @@ class QuizUtils {
         endGame.putExtra(GAME_FINISHED, true);
         context.startActivity(endGame);
     }
-
 }
